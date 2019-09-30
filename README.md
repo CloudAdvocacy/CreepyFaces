@@ -4,10 +4,11 @@ Welcome to the CreepyFaces Tutorial!
 
 In this tutorial, we will teach you how to create Creepy Faces like this one:
 
-<nobr>
+<table border=0><tr><td>
 <img src="https://raw.githubusercontent.com/shwars/FaceArt/master/notebooks/img/PhoBoGuy.png" width="30%"/>
+</td><td>
 <img src="https://raw.githubusercontent.com/shwars/FaceArt/master/notebooks/img/PhoBoGuy1.png" width="30%"/>
-</nobr>
+</td></tr></table>
 
 The main idea is to use [Microsoft Face API](https://docs.microsoft.com/azure/cognitive-services/face/overview/?wt.mc_id=crpyface-github-dmitryso) to extract coordinates of key points of the face - so called **Face Landmarks**. We then then use OpenCV machinery to apply some transformations to the image according to those key points. In the example above you can see several images blended together, aligned to the eyes.
 
